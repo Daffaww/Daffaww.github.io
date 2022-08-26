@@ -1,0 +1,116 @@
+/* CSS Document */
+.nav-bar{
+	width: 100%;
+	background: black;
+	padding-bottom: 50px;
+	background-position: center;
+}
+.logo {
+	font-size: 30px;
+}
+.logo a{
+	color: white;
+	text-decoration: none;
+}
+.nav ul{
+	list-style: none;
+}
+.nav li{
+	margin: 15px 15px;
+	position: relative;
+	text-align: center;
+	height: 28px;
+	width: 110px;
+/*	background: linear-gradient(to left, #C785ED 0%, #4D377C 50%, #000000 100%);*/
+	background: linear-gradient(to left, #CECECE 0%, #4A4A4A 68%, #000000 100%);
+
+	border-radius: 50px;
+    transition: .5s	
+	
+}
+
+.nav li:hover{
+	background: black;
+}
+.nav li a{
+	color: white;
+	text-decoration: none;
+	
+}
+.sub-menu{
+	position: absolute;
+	width: 110px;
+	display: none;
+	left: -14px;
+}
+
+.sub-menu li a{
+	color: white;
+	text-decoration: none;
+	font-size: 12px;
+}
+.nav li:hover .sub-menu{
+	display: block;
+}
+
+.about-me{
+	min-height: 100vh;
+	width: 100%;
+	background:black;;
+	background-position: center;
+	background-size:cover;
+}
+
+.about-me h1{
+	color: white;
+	font-size: 60px;
+	text-align: center;
+	margin-right: 38px;
+	padding: 20px 0;
+}
+
+.img-col{
+	flex-basis: 31%;
+	margin-bottom:5px;
+	position: relative;
+	overflow: hidden;
+}
+.img-col img{
+	width: 300px;
+	height: 300px;
+}
+.layer{ 
+	background:transparent;
+	height: 300px;
+	width: 300px;
+	position: absolute;
+	top:0;
+	left: 0;
+	transition: .75s;
+}
+.layer h3{
+	text-align: center;
+    margin-top: 45%
+	}
+.layer a{
+	text-decoration: none;
+	color: rgba(226,226,226,0.43)
+	
+}
+.layer:hover{
+	background: rgba(21,21,21,0.87);
+}
+
+.footer{
+	min-height: 50px;
+	width: 100%;
+	background:black;
+	background-position: center;
+	text-align: center;
+}
+.footer p{
+	color: white;
+	font-style: italic;
+	font-size: 15px;
+}
+
